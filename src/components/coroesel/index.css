@@ -1,0 +1,49 @@
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 440px;
+    margin-top: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color:#3b4856;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    width: 400px;
+    height: 150px;
+  }
+  
+  .card.active {
+    opacity: 1;
+  }
+  
+  .arrow {
+    background-color: #eee;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    outline: none;
+  }
+  
+  .arrow:hover {
+    background-color: #ddd;
+  }
+  

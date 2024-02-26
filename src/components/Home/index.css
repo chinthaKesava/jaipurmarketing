@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+.main-container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    max-width: 430px;
+    background: linear-gradient(to bottom right, #0053b5, #00a7f8);
+    padding: 20px;
+    height: 100vh;
+}
+
+.icons-sizing {
+    height: 50px;
+    width: 60px;
+    color: #ffffff;
+}
+
+.header-sizing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure icons stretch to full width */
+    max-width: 100%; /* Ensure icons stretch to full width */
+    padding: 0 20px; /* Add padding if needed */
+}
+
+.content-heading-home{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: start   ;
+}
+.white-card{
+    background-color: #ffffff;
+    width: 100vw;
+    box-sizing: border-box;
+    max-width: 430px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.new-badge{
+    background-color: #FFDB58;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 0px 15px;
+
+}
+.context{
+    color: white;
+}
